@@ -18,7 +18,7 @@ set -x EDITOR /usr/bin/vim
 . $HOME/.config/fish/auto_activation.fish
 set -x LSCOLORS gxfxbEaEBxxEhEhBaDaCaD
 
-function festicket_django_settings_module --on-event virtualenv_did_active:festicket
+function festicket_django_settings_module --on-event virtualenv_did_activate:festicket
     set -gx DJANGO_SETTINGS_MODULE festicket.settings.dev.matthew
 end
 
