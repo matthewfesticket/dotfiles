@@ -51,5 +51,8 @@ colorscheme solarized
 
 let mapleader = ","
 
+" mysteriously makes deletion work the way it should
+set backspace=2
+
 " Have airline look like powerline
 let g:airline_powerline_fonts = 1
