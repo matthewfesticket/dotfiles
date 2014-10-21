@@ -20,6 +20,7 @@ Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'myusuf3/numbers.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'embear/vim-localvimrc'
+Plugin 'klen/python-mode'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -44,4 +45,7 @@ syntax enable
 set number
 set ruler
 set background="dark"
+set laststatus=2 "always show status line
 colorscheme solarized
+
+let mapleader = ","
