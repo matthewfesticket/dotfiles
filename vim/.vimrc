@@ -16,7 +16,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'bling/vim-airline'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'embear/vim-localvimrc'
@@ -50,3 +50,6 @@ set laststatus=2 "always show status line
 colorscheme solarized
 
 let mapleader = ","
+
+" Have airline look like powerline
+let g:airline_powerline_fonts = 1
